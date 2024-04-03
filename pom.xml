@@ -5,32 +5,19 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.3</version>
+        <version>3.2.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.silaichev</groupId>
     <artifactId>SpringDeployFromGit</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
-    <name>SpringDeployFromGit</name>
-    <description>SpringDeployFromGit</description>
+    <name>nure</name>
+    <description>Demo project for Spring Boot Deploy in Azur ecosystem</description>
     <properties>
         <java.version>17</java.version>
+        <spring-cloud-azure.version>5.10.0</spring-cloud-azure.version>
     </properties>
     <dependencies>
-       <!-- <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <scope>runtime</scope>
-        </dependency>-->
-        <!--<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -71,3 +58,4 @@
     </build>
 
 </project>
+

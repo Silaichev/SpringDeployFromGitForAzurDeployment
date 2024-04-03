@@ -1,4 +1,4 @@
-package org.silaichev.springdeployfromgit;
+package org.nure.springdeployfromgit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

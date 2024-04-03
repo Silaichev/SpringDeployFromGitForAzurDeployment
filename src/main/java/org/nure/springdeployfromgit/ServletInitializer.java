@@ -1,4 +1,4 @@
-package org.silaichev.springdeployfromgit;
+package org.nure.springdeployfromgit;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
